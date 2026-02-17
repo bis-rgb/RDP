@@ -76,7 +76,7 @@ jobs:
           Write-Host "`n=== RDP ACCESS ===" -ForegroundColor Green
           Write-Host "Address:  $env:TAILSCALE_IP"
           Write-Host "Username: RDP"
-          Write-Host "Password: $env:RDP_PASS"
+          Write-Host "Password: $env: RDP_CREDS)"
           Write-Host "==================`n"
           
           Write-Host "Runner is now waiting for your connection. Cancel the workflow to stop."
